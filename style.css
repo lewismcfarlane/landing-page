@@ -51,6 +51,11 @@ section-one {
     height: 250px;
 }
 
+.s1-content {
+    border: 1px dashed blue;
+    display: flex;
+}
+
 section-two {
     border: 1px dashed blue;
     display: flex;
