@@ -24,7 +24,6 @@ header {
 header-links ul {
     display: flex;
     flex-shrink: 0;
-    
     white-space: nowrap;
 }
 
@@ -49,21 +48,25 @@ main {
 section-one {
     border: 1px dashed blue;
     display: flex;
+    height: 250px;
 }
 
 section-two {
     border: 1px dashed blue;
     display: flex;
+    height: 250px;
 }
 
 section-three {
     border: 1px dashed blue;
     display: flex;
+    height: 250px;
 }
 
 section-four {
     border: 1px dashed blue;
     display: flex;
+    height: 200px;
 }
 
 footer {
