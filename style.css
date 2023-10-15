@@ -49,10 +49,15 @@ section-one {
     border: 1px dashed blue;
     display: flex;
     height: 250px;
+    justify-content: space-around;
 }
 
 .s1-content {
     border: 1px dashed blue;
+    display: flex;
+}
+
+.s1-img {
     display: flex;
 }
 
