@@ -56,6 +56,11 @@ section-one {
     display: flex;
 }
 
+.s1-img img {
+    height: 100px;
+    width: auto;
+}
+
 section-two {
     border: 1px dashed blue;
     display: flex;
