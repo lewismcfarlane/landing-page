@@ -69,4 +69,7 @@ section-four {
 footer {
     border: 1px dashed blue;
     display: flex;
+    height: 50px;
+    justify-content: center;
+    align-items: center;
 }
