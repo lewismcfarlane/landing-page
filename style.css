@@ -8,7 +8,7 @@ body {
 header {
     border: 1px dashed blue;
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
     align-items: center;
     height: 52px;
     background-color: bisque;
