@@ -6,6 +6,7 @@ body {
 }
 
 header {
+    border: 1px dashed blue;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -42,4 +43,30 @@ a {
 main {
     display: flex;
     flex-direction: column;
+    border: 1px dashed red;
+}
+
+section-one {
+    border: 1px dashed blue;
+    display: flex;
+}
+
+section-two {
+    border: 1px dashed blue;
+    display: flex;
+}
+
+section-three {
+    border: 1px dashed blue;
+    display: flex;
+}
+
+section-four {
+    border: 1px dashed blue;
+    display: flex;
+}
+
+footer {
+    border: 1px dashed blue;
+    display: flex;
 }
