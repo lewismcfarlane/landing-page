@@ -39,3 +39,7 @@ a {
     margin: 0 1em;
 }
 
+main {
+    display: flex;
+    flex-direction: column;
+}
