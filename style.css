@@ -155,12 +155,18 @@ s1-bottom-container {
 section-two {
     display: flex;
     height: 350px;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
     
 }
-.s2-information {
+.s2-information-header {
     display: flex;
+    margin-bottom: 25px;
+}
+.s2-information-header h1 {
+    font-size: 36px;
+    font-weight: 800;
 }
 
 .s2-information-img-container {
