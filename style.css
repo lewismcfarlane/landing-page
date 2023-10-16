@@ -153,9 +153,32 @@ s1-bottom-container {
 }
 
 section-two {
-    border: 1px dashed blue;
     display: flex;
-    height: 250px;
+    height: 350px;
+    justify-content: center;
+    align-items: center;
+    
+}
+.s2-information {
+    display: flex;
+}
+
+.s2-information-img-container {
+    display: flex;
+    gap: 43px;
+}
+   
+.information-img {
+    max-width: 150px;
+}
+
+.information-img p {
+    text-align: center;
+}
+
+.information-img img {
+    width: 150px;
+    height: auto;
 }
 
 section-three {
