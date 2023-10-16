@@ -71,7 +71,7 @@ main {
 section-one {
     border: 1px dashed blue;
     display: flex;
-    height: 350px;
+    height: auto;
     justify-content: space-between;
     background-color: bisque;
 }
@@ -90,7 +90,7 @@ section-one {
 
 s1-bottom-container {
     display: flex;
-    gap: 150px;
+    gap: 100px;
 }
 
 .s1-content {
@@ -98,6 +98,30 @@ s1-bottom-container {
     display: flex;
     border: 1px black dashed;
     color: black;
+    flex-direction: column;
+    justify-content: space-between;
+    gap: 10px;
+}
+
+.hero-welcome {
+    font-size: 48px;
+    font-weight: 800;
+}
+
+.hero-description {
+    font-size: 18px;
+}
+
+.hero-button {
+    width: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 18px;
+    color: white;
+    padding: 0 1em;
+    white-space: nowrap;
+    background-color: #3882F6;
 }
 
 .s1-img {
