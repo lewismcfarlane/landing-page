@@ -138,6 +138,7 @@ s1-bottom-container {
     border-radius: 5px;
     white-space: nowrap;
     background-color: #3882F6;
+    cursor: pointer;
 }
 
 .s1-img {
@@ -227,12 +228,20 @@ banner {
 }
 
 banner button {
+    border: 2.5px white solid;
+    font-size: 16px;
+    font-weight: 600;
+    background-color: #3882F6;
+    border-radius: 10px;
+    color: white;
     display: flex;
     justify-content: center;
     align-items: center;
     height: 40px;
-    width: 80px;
+    width: 120px;
+    cursor: pointer;
 }
+
 
 banner-text {
     /* border: 1px red dashed; */
