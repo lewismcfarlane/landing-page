@@ -3,10 +3,12 @@ body {
     margin: 0;
     display: flex;
     flex-direction: column;
+    --dark-background: #1F2937;
+    --empty-container-size: 30%;
 }
 
+
 header {
-    border: 1px dashed blue;
     display: flex;
     justify-content: space-around;
     align-items: center;
@@ -16,12 +18,12 @@ header {
 }
 
 .header {
-    border: 1px dashed blue;
+
     display: flex;
     justify-content: space-between;
     align-items: center;
     height: 52px;
-    background-color: bisque;
+    background-color: var(--dark-background)
     
 }
 
@@ -30,16 +32,19 @@ header {
     justify-content: flex-start;
     flex-shrink: 0;
     /* margin: 0 1em; */
-    border: 1px dashed red;
-    color: black;
+    color: #F9FAF8;
+    font-size: 24px;
 }
 
 header-links ul {
     display: flex;
     flex-shrink: 0;
     white-space: nowrap;
-    border: 1px dashed red;
+
    
+}
+header-links ul li a {
+    color: #E5E7EB;
 }
 
 ul {
@@ -65,38 +70,40 @@ a {
 main {
     display: flex;
     flex-direction: column;
-    border: 1px dashed red;
 }
 
 section-one {
-    border: 1px dashed blue;
     display: flex;
     height: auto;
     justify-content: space-between;
-    background-color: bisque;
+    background-color: var(--dark-background);
+    padding-bottom: 30px;
+    width: 100%;
 }
 .section-one-middle {
-    border: dashed purple 1px;
+    width: 80%;
     display: flex;
     flex-direction: column;
     gap: 50px;
 }
 .left-empty-container {
-    border: dashed 1px black;
+    width: var(--empty-container-size);
+    background-color: var(--dark-background);
 }
 .right-empty-container {
-    border: dashed 1px black;
+    width: var(--empty-container-size);
+    background-color: var(--dark-background);
 }
 
 s1-bottom-container {
     display: flex;
+
     gap: 100px;
+
 }
 
 .s1-content {
-    border: 1px dashed blue;
     display: flex;
-    border: 1px black dashed;
     color: black;
     flex-direction: column;
     justify-content: space-between;
@@ -106,10 +113,13 @@ s1-bottom-container {
 .hero-welcome {
     font-size: 48px;
     font-weight: 800;
+    color: #F9FAF8;
+    min-width: 330px;
 }
 
 .hero-description {
     font-size: 18px;
+    color: #E5E7EB;
 }
 
 .hero-button {
@@ -117,9 +127,13 @@ s1-bottom-container {
     display: flex;
     justify-content: center;
     align-items: center;
-    font-size: 18px;
+    font-size: 14px;
+    font-weight: 600;
     color: white;
-    padding: 0 1em;
+    padding: 7px 15px;
+    border: none;
+    background: none;
+    border-radius: 5px;
     white-space: nowrap;
     background-color: #3882F6;
 }
@@ -129,12 +143,11 @@ s1-bottom-container {
     justify-content: center;
     align-items: center;
     /* padding: 100px; */
-    border: 1px red dashed;
 }
 
 .s1-img img {
-    height: 200px;
-    width: auto;
+    height: auto;
+    width: 300px;
 }
 
 section-two {
