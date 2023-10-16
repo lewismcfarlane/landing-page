@@ -210,6 +210,44 @@ quote h5 {
 section-four {
     display: flex;
     height: 350px;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+banner {
+    border: 1px red dashed;
+    background-color: #3882F6;
+    display: flex;
+    height: 150px;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 729px;
+    border-radius: 1em;
+}
+
+banner button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 40px;
+    width: 80px;
+}
+
+banner-text {
+    /* border: 1px red dashed; */
+
+}
+
+banner-text h1 {
+    font-size: 24px;
+    color: #F9FAF8;
+    margin: 0;
+}
+
+banner-text p {
+    color: #E5E7EB;
+    margin-top: 0.5em;
 }
 
 footer {
